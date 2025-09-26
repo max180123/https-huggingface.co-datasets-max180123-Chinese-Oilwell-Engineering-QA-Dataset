@@ -1,22 +1,3 @@
----
-license: Apache License 2.0
-
-text:
-  #二级只能属于一个task_categories
-  text-generation:
-    #三级可以多选
-    languages:
-      - zh
-
-configs: # 配置数据集的子数据集和划分
-- config_name: default
-  data_files:
-  - split: train
-    path: "dataset.json"
-
----
-
-
 # 中文油气井工程问答数据集（Chinese-Oilwell-Engineering-QA-Dataset）
 
 本数据集面向油气井工程场景，聚焦钻井工程、完井工程、井壁稳定与石油工程导论等核心知识，采用问答（QA）形式组织，适用于中文技术领域大模型的指令对齐与领域微调。
